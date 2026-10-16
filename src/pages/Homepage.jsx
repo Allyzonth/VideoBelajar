@@ -26,6 +26,7 @@ function Homepage() {
           </a>
           <nav className="home-nav" aria-label="Navigasi utama">
             <a href="#kelas">Kategori</a>
+            <a href="/register">Daftar</a>
             <a className="home-avatar" href="/login" aria-label="Buka profil">AR</a>
           </nav>
         </div>
