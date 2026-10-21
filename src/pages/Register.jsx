@@ -22,7 +22,7 @@ function Register() {
     <main className="auth-page">
       <section className="auth-shell" aria-labelledby="register-title">
         <Link className="logo auth-brand" to="/">
-          <span className="logo-mark">▶</span>videobelajar
+          <img src="/assets/images/Logo.png" alt="VideoBelajar" />
         </Link>
         <h1 id="register-title">Buat akun baru</h1>
         <p className="auth-intro">Mulai belajar dan kembangkan potensimu bersama kami.</p>

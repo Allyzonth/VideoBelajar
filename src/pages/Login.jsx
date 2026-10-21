@@ -6,10 +6,10 @@ function Login() {
     <main className="auth-page">
       <section className="auth-shell" aria-labelledby="login-title">
         <Link className="logo auth-brand" to="/">
-          <span className="logo-mark">▶</span>videobelajar
+          <img src="/assets/images/Logo.png" alt="VideoBelajar" />
         </Link>
-        <h1 id="login-title">Selamat datang kembali</h1>
-        <p className="auth-intro">Masuk untuk melanjutkan perjalanan belajarmu.</p>
+        <h1 id="login-title">Selamat datang</h1>
+        <p className="auth-intro">Masuk untuk perjalanan belajarmu yang menyenangkan.</p>
         <form onSubmit={(event) => event.preventDefault()}>
           <FormField
             id="login-email"

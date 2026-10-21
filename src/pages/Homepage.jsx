@@ -22,7 +22,7 @@ function Homepage() {
       <header className="home-header">
         <div className="home-container home-header-inner">
           <a className="home-logo" href="/">
-            <span className="home-logo-mark">▶</span>videobelajar
+            <img src="/assets/images/Logo.png" alt="VideoBelajar" />
           </a>
           <nav className="home-nav" aria-label="Navigasi utama">
             <a href="#kelas">Kategori</a>
@@ -96,7 +96,7 @@ function Homepage() {
           <div className="home-footer-grid">
             <div className="home-footer-about">
               <a className="home-logo" href="/">
-                <span className="home-logo-mark">▶</span>videobelajar
+                <img src="/assets/images/Logo.png" alt="VideoBelajar" />
               </a>
               <p>Gali Potensi Anda Melalui Pembelajaran<br />Video di harioksi.id!</p>
               <address>
