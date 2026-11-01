@@ -1,5 +1,5 @@
+import { useNavigate } from 'react-router-dom'
 import CourseCard from '../components/CourseCard.jsx'
-import { courses } from '../data/courses.js'
 
 const footerGroups = [
   {
@@ -16,7 +16,10 @@ const footerGroups = [
   },
 ]
 
-function Homepage() {
+function Homepage({ courses, onDelete }) {
+  const navigate = useNavigate()
+
+
   return (
     <div className="home-page">
       <header className="home-header">
@@ -58,6 +61,9 @@ function Homepage() {
                 <h2>Koleksi Video Pembelajaran Unggulan</h2>
                 <p>Jelajahi berbagai video pembelajaran pilihan kami!</p>
               </div>
+              <button className="course-add-button" type="button" onClick={() => navigate('/courses/new')}>
+                Tambah Kursus
+              </button>
             </div>
             <nav className="home-category-nav" aria-label="Kategori kelas">
               <a className="is-active" href="#kelas">Semua Kelas</a>
@@ -67,7 +73,14 @@ function Homepage() {
               <a href="#kelas">Bisnis</a>
             </nav>
             <div className="home-course-grid">
-              {courses.map((course) => <CourseCard key={course.title} course={course} />)}
+              {courses.map((course) => (
+                <CourseCard
+                  key={course.id}
+                  course={course}
+                  onEdit={() => navigate(`/courses/${course.id}/edit`)}
+                  onDelete={() => onDelete(course.id)}
+                />
+              ))}
             </div>
           </div>
         </section>

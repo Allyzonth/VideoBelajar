@@ -2,6 +2,7 @@ const courseImage = (fileName) => `/assets/images/${fileName}`
 
 export const courses = [
   {
+    id: 'course-1',
     image: courseImage('financial-analysis.jpg'),
     imageAlt: 'Laporan keuangan dan kalkulator',
     imageTitle: ['Financial', 'Analysis'],
@@ -17,6 +18,7 @@ export const courses = [
     price: 'Rp 300K',
   },
   {
+    id: 'course-2',
     image: courseImage('brand-design.jpg'),
     imageAlt: 'Perangkat dan karya desain branding',
     imageTitle: ['Creative', 'Branding'],
@@ -32,6 +34,7 @@ export const courses = [
     price: 'Rp 250K',
   },
   {
+    id: 'course-3',
     image: courseImage('digital-marketing.jpg'),
     imageAlt: 'Dashboard analitik pemasaran digital di laptop',
     imageTitle: ['Digital', 'Marketing'],
@@ -47,6 +50,7 @@ export const courses = [
     price: 'Rp 275K',
   },
   {
+    id: 'course-4',
     image: courseImage('productivity.jpg'),
     imageAlt: 'Ruang kerja untuk fokus dan produktivitas',
     imageTitle: ['Productivity', 'Mastery'],
@@ -62,6 +66,7 @@ export const courses = [
     price: 'Rp 220K',
   },
   {
+    id: 'course-5',
     image: courseImage('business-startup.jpg'),
     imageAlt: 'Tim berdiskusi mengembangkan bisnis',
     imageTitle: ['Business', 'Growth'],
@@ -77,6 +82,7 @@ export const courses = [
     price: 'Rp 300K',
   },
   {
+    id: 'course-6',
     image: courseImage('ux-research.jpg'),
     imageAlt: 'Riset pengalaman pengguna dan rancangan interface',
     imageTitle: ['UI/UX', 'Research'],
@@ -92,6 +98,7 @@ export const courses = [
     price: 'Rp 280K',
   },
   {
+    id: 'course-7',
     image: courseImage('public-speaking.jpg'),
     imageAlt: 'Pembicara tampil di hadapan audiens',
     imageTitle: ['Public', 'Speaking'],
@@ -107,6 +114,7 @@ export const courses = [
     price: 'Rp 180K',
   },
   {
+    id: 'course-8',
     image: courseImage('content-creation.jpg'),
     imageAlt: 'Kamera untuk membuat konten video',
     imageTitle: ['Content', 'Creator'],
@@ -122,6 +130,7 @@ export const courses = [
     price: 'Rp 240K',
   },
   {
+    id: 'course-9',
     image: courseImage('data-analytics.jpg'),
     imageAlt: 'Grafik dan dashboard analisis data',
     imageTitle: ['Data', 'Analytics'],
